@@ -1,0 +1,15 @@
+[Unit]
+Description = Clock on PaPiRus              
+After = network.target
+
+[Service]
+Type = simple
+ExecStart =/usr/bin/python /home/pi/papirus-clock
+User = pi                    
+Restart = always
+SyslogIdentifier = papirus
+RestartSec = 5
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy = multi-user.target
