@@ -1,3 +1,4 @@
+<img src="photo.jpg" width="256" height="256" alt="Device">
 
 Just completed Pi Zero W file server for my Mars 2 Pro. Don’t have time to write complete guide, but here is the links to the items and software I used:
 
